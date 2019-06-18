@@ -12,9 +12,9 @@ def using_reverse(array)
   cute_dogs.reverse
 end
 
-def using_first(array)
-  cute_dogs = ["wow", "I", "am", "really", "learning", "arrays!"]
-  cute_dogs.first
+def using_first(my_array)
+  
+  my_array.first
 end
 
 def using_last(array)
@@ -26,3 +26,10 @@ def using_size(array)
   cute_dogs = ["wow", "I", "am", "really", "learning", "arrays!"]
   cute_dogs.size
 end
+
+cute_dogs = ["wow", "I", "am", "really", "learning", "arrays!"]
+
+cute_cats = ["Milo", "Rosie", "Zorro", "Ford"]
+
+puts using_first(cute_cats)
+puts using_first(cute_dogs)
