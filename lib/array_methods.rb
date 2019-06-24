@@ -1,8 +1,14 @@
+# lib/array_methods.rb
+ 
 def using_include(array, element)
-
+  array.include?
+  (element)
 end
 
-def using_sort(array)
+def using_sort=["sort"]
+  using_sort
+  
+
 
 end
 
